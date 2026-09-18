@@ -50,111 +50,18 @@ O Diagrama Entidade-Relacionamento (DER) foi elaborado a partir das entidades, a
 - **Avaliação Física**
 - **Instrutor**
 - **Aula/Treino**
-- **Item_Exercício**
+- **Aparelho**
 - **Exercício**
 - **Recepcionista**
 
 O modelo contempla informações como identificação e dados cadastrais dos alunos, planos contratados, informações relacionadas à saúde, avaliações físicas, agendamentos, instrutores e estruturação dos treinos e exercícios.
 
-## 🔐 Regras e Restrições
-
-Durante o levantamento, foram consideradas regras e restrições necessárias para manter a consistência das informações representadas pelo modelo.
-
-Entre elas estão:
-
-- Cada aluno deve possuir uma identificação única;
-- Cada plano deve possuir uma identificação própria;
-- Informações de alunos e funcionários devem ser armazenadas de forma organizada;
-- Os relacionamentos entre alunos, planos, avaliações, instrutores e treinos devem respeitar as cardinalidades definidas no DER;
-- Um treino pode ser composto por diferentes itens de exercício;
-- Cada item de exercício deve estar relacionado a um exercício cadastrado;
-- Informações de saúde devem estar vinculadas ao aluno correspondente;
-- Os exemplos utilizados na documentação não devem conter dados reais de pessoas.
-
-## 🔄 Processos de Negócio
-
-O levantamento dos processos busca representar como as principais atividades da academia ocorrem e quais informações são utilizadas em cada etapa.
-
-Entre os processos considerados estão:
-
-- Matrícula do aluno;
-- Contratação de plano;
-- Atendimento e registro pela recepção;
-- Agendamento de atividades;
-- Avaliação física;
-- Orientação pelo instrutor;
-- Criação e organização de treinos;
-- Associação de exercícios aos treinos.
-
-Os processos são representados por meio de fluxogramas na documentação da Entrega 1.
-
-## ⚙️ Requisitos do Sistema
-
-### Requisitos Funcionais
-
-O sistema deverá permitir, entre outras funcionalidades:
-
-- Cadastrar alunos;
-- Consultar e atualizar dados cadastrais;
-- Cadastrar planos;
-- Associar alunos aos seus respectivos planos;
-- Registrar informações do prontuário de saúde;
-- Registrar avaliações físicas;
-- Realizar e consultar agendamentos;
-- Cadastrar instrutores;
-- Cadastrar exercícios;
-- Criar e organizar aulas/treinos;
-- Associar exercícios aos treinos;
-- Registrar informações relacionadas ao atendimento da recepção.
-
-### Requisitos Não Funcionais
-
-O sistema deverá considerar:
-
-- **Segurança:** proteção das informações armazenadas;
-- **Integridade:** manutenção da consistência dos relacionamentos entre os dados;
-- **Escalabilidade:** estrutura preparada para inclusão de novos alunos, planos, exercícios e unidades;
-- **Usabilidade:** organização das informações de maneira clara para os usuários;
-- **Privacidade:** proteção de informações pessoais e de saúde dos alunos.
-
-## 🤖 Uso de Inteligência Artificial
-
-A Inteligência Artificial foi utilizada como ferramenta de apoio durante o desenvolvimento do projeto.
-
-Os usos de IA incluem:
-
-- Pesquisa e levantamento de informações;
-- Organização de ideias;
-- Apoio na elaboração da documentação;
-- Revisão e melhoria textual;
-- Apoio na identificação e análise de entidades, atributos e relacionamentos;
-- Auxílio na estruturação do README e demais documentos do projeto.
-
-Todas as utilizações de IA devem ser registradas conforme solicitado na documentação da **Entrega 1**, contendo:
-
-- Ferramenta utilizada;
-- Motivação para utilização;
-- Prompt utilizado;
-- Resposta obtida;
-- Fontes verificadas, quando aplicável;
-- Trechos corrigidos ou modificados;
-- Reflexão crítica sobre a utilização da IA.
-
-A IA foi utilizada como ferramenta de apoio, sendo necessária a análise e validação das informações pelo grupo.
-
 ## 📁 Estrutura do Repositório
 
 ```text
-📦 projeto-academia
+📦 skyfit-sistema-gestao-academia
 ├── 📄 README.md
 ├── 📁 docs
-│   ├── levantamento.md
-│   ├── processos.md
-│   ├── requisitos.md
-│   ├── regras-de-negocio.md
-│   ├── dicionario-de-dados.md
-│   ├── justificativa-tecnica.md
-│   └── uso-de-ia.md
-│
+│   ├── dicionario-de-dados.pdf
 └── 📁 DER
     └── diagrama-entidade-relacionamento.png
