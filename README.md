@@ -68,7 +68,7 @@ O processo inicia-se com o cadastro do aluno no sistema, registrando informaçõ
 
 O sistema deve permitir registrar o plano contratado pelo aluno e suas respectivas características.
 
-A pesquisa identificou planos com diferentes possibilidades de acesso às unidades e benefícios. A nomenclatura e algumas regras comerciais dos planos ainda precisam ser validadas com a organização. :contentReference[oaicite:2]{index=2}
+A pesquisa identificou planos com diferentes possibilidades de acesso às unidades e benefícios. A nomenclatura e algumas regras comerciais dos planos ainda precisam ser validadas com a organização. 
 
 ### Pagamentos
 
@@ -76,13 +76,13 @@ O sistema deve registrar os pagamentos realizados pelos alunos, incluindo valor,
 
 ### Controle de acesso
 
-O acesso às unidades pode ocorrer por meio de identificação biométrica, como impressão digital ou reconhecimento facial, além de acessos realizados por meio de parceiros como TotalPass, mediante autorização. :contentReference[oaicite:3]{index=3}
+O acesso às unidades pode ocorrer por meio de identificação biométrica, como impressão digital ou reconhecimento facial, além de acessos realizados por meio de parceiros como TotalPass, mediante autorização. 
 
 ### Gestão de treinos
 
 O sistema deve armazenar os treinos dos alunos, seus exercícios, séries, repetições, cargas, tempos e intervalos.
 
-As alterações realizadas nos treinos podem ser mantidas para permitir o histórico de evolução do aluno. :contentReference[oaicite:4]{index=4}
+As alterações realizadas nos treinos podem ser mantidas para permitir o histórico de evolução do aluno.
 
 ### Avaliação física
 
@@ -90,7 +90,7 @@ O sistema deve permitir registrar informações relacionadas às avaliações f�
 
 ### Gestão de profissionais
 
-A organização possui instrutores e recepcionistas, sendo necessário armazenar informações cadastrais e profissionais desses colaboradores. :contentReference[oaicite:5]{index=5}
+A organização possui instrutores e recepcionistas, sendo necessário armazenar informações cadastrais e profissionais desses colaboradores.
 
 ### Gestão de exercícios e equipamentos
 
@@ -401,7 +401,7 @@ As regras comerciais relacionadas aos planos, valores, benefícios, fidelidade, 
 | NM_UNIDADE | Nome da unidade | Obrigatório |
 | DS_ENDERECO | Endereço da unidade | Deve ser informado |
 
-A pesquisa identificou a existência de 26 unidades, porém os endereços individuais das unidades não foram disponibilizados no material analisado. :contentReference[oaicite:7]{index=7}
+A pesquisa identificou a existência de 26 unidades, porém os endereços individuais das unidades não foram disponibilizados no material analisado.
 
 ## 5.10 CHECK_IN
 
@@ -508,7 +508,7 @@ Um aluno pode possuir diversos pagamentos registrados.
 
 O Diagrama Entidade-Relacionamento representa graficamente as entidades, atributos, relacionamentos e cardinalidades definidos durante a modelagem conceitual.
 
-## 7.1 DER - - - - - -  - - - -- VERIFICAR  - - - - - - -  - - - - - - - - - -- - - 
+## 7.1 DER
 
 A imagem do DER deve ser inserida neste ponto do README.
 
