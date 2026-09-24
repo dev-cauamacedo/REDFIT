@@ -510,11 +510,9 @@ O Diagrama Entidade-Relacionamento representa graficamente as entidades, atribut
 
 ## 7.1 DER
 
-A imagem do DER deve ser inserida neste ponto do README.
+O Diagrama Entidade-Relacionamento desenvolvido para representar a estrutura conceitual do banco de dados da RedFit é apresentado abaixo.
 
-Exemplo:
-
-![Diagrama Entidade-Relacionamento](./DER.png)
+<img width="1345" height="1028" alt="diagrama-entidade-relacionamento" src="https://github.com/user-attachments/assets/8f242385-fa67-4484-b03b-60eca5767478" />
 
 ## 7.2 Entidades representadas
 
